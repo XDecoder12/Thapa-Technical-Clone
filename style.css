@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    background-color: #2B2B2B;
+    box-sizing: border-box;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbarI {
+    height: 38.77px;
+    width: 125.27px;
+    color: #FFFFFF;
+    display: flex;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.nav-logo {
+    height: 38.77px;
+    width: 38.77px;
+}
+
+.logo {
+    background-image: url("logo.avif");
+    background-size: cover;
+    height: 38.77px;
+    width: 38.77px;
+}
+
+.nav-name {
+    font-size: 1.1rem;
+    padding-left: 1rem;
+}
+
+
+/** part 2 of navbar **/
+
+.navbarII {
+    color: white;
+    display: flex;
+    padding: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+}
+
+.highlight:hover {
+    color: #D69667;
+}
+
+a {
+    letter-spacing: 0.06rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 1rem;
+}
+
+ul {
+    display: flex;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 12rem;
+}
+
+.main-text {
+    color: #FFFFFF;
+    padding-right: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.chotuI {
+    color: #D69667;
+    letter-spacing: 5px;
+    font-weight: lighter;
+    font-size: x-small; 
+    padding-bottom: 1rem;
+}
+
+.chotuII {
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-bottom: 0.2rem;
+    padding-top: 1rem;
+}
+
+.oval-image {
+    background-image: url(thapatechnical1.avif);
+    background-size: cover;
+    height: 450px;
+    width: 350px;
+    border: 10px solid #c83d1a;
+    border-radius: 200px;
+    border-width: 1px;
+    border-collapse: separate;
+    box-shadow: #6F3D2E;
+    padding: 0.5rem;
+}
+
+.buttons {
+    justify-content: space-evenly;
+    color: white;
+}
+
+.styleI {
+    border: #6f3c30;
+    background-color: #6f3c30;
+    border-radius: 8px;
+}
+
+.styleII {
+    margin-left: 1rem;
+    color: #FFFFFF;
+}
+
+.styleII:hover {
+    border: #6f3c30;
+    background-color: #6f3c30;
+    border-radius: 8px;
+}
+
+.footI {
+    justify-content: space-between;
+    padding-top: 7rem;
+    color: #D69667;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 11rem;
+    padding-right: 13rem;
+    padding-bottom: 2rem;
+}
+
+.page2-text {
+    padding: 11rem;
+    color: #FFFFFF;
+    padding-right: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #232323;
+    height: 32rem;
+}
+
+.page2 h2 {
+    font-weight: lighter;
+    background-color: #232323;
+    letter-spacing: 0.5px;
+}
+
+.page2 p {
+    background-color: #232323;
+}
+
+.page3 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 12rem;
+    padding-bottom: 7rem;
+}
+
+.page3-textI {
+    color: #FFFFFF;
+    padding-right: 20rem;
+    padding-left: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    width: 68%;
+}
+
+.page3-textII {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    padding-right: 10rem;
+    padding-top: 4rem;
+}
+
+.page3-textII li {
+    padding-bottom: 2rem;
+}
+
+ol {
+    font-weight: lighter;
+}
+
+.shadow-box {
+    padding-left: 5rem;
+    padding-right: 15rem;
+    margin: 5.2rem 10rem;
+    background-color: #232323;
+    color: white;
+    border-radius: 1rem;
+    box-shadow: rgb(214, 150, 103) 2rem -2rem 1rem -2rem;
+}
+
+.shadow-box-text {
+    padding: 3rem 0rem;
+    background-color: #232323;
+}
+
+.shadow-box-text h1 {
+    background-color: #232323;
+    font-size: 2.5rem;
+}
+
+.numbersI {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #232323;
+    padding-bottom: 3rem;
+}
+
+.numI {
+    background-color: #232323;
+    color: #2B2B2B;
+    font-size: 5rem;
+}
+
+.numII {
+    background-color: #232323;
+    font-weight: bold;
+}
+
+.yt-info {
+    background-image: ;
+    display: flex;
+    flex-direction: row;
+}
+
+.yt-info-text {
+    padding-top: 20rem;
+    padding-left: 13rem;
+    width: 50%;
+    color: white;
+}
+
+.yt-info-text a {
+    background-color: #1A5D50;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.yt-info-image {
+    background-image: url(ytmobile.avif);
+    background-size: cover;
+    height: 670px;
+    width: 330px;
+}
+
+.numbersII {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+}
